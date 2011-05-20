@@ -1,1 +1,1 @@
-web:    play run --%prod --http.port=$PORT -Xmx512m -Ddatabase.url=$DATABASE_JDBC_URL 
+web:    play run --%prod --http.port=$PORT -Xmx512m -Ddatabase.url=`jdbcify $DATABASE_URL`
