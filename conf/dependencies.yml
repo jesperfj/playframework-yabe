@@ -3,4 +3,4 @@
 require:
     - play
     - postgresql -> postgresql 8.4-701.jdbc3
-    - crud
+    - play -> crud
