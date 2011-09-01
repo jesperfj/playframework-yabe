@@ -3,3 +3,6 @@ logs
 test-result
 precompiled
 lib
+.classpath
+.project
+.settings
