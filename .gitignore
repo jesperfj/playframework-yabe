@@ -3,6 +3,7 @@ logs
 test-result
 precompiled
 lib
+eclipse
 .classpath
 .project
 .settings
